@@ -1,0 +1,73 @@
+\documentclass[]{cv-style}% Add 'print' in [] to get print-view
+%\usepackage{graphicx}
+
+%\usepackage{showframe}
+
+\def\cvname{John Doe}%
+\def\cvstreet{St. Georges Street 25}%
+\def\cvzipcode{28170}%
+\def\cvcity{Gotham City}%
+\def\cvcountry{GER}%
+\def\cvemail{john@doe.tld}%
+\def\cvweb{https://johndoe.tld}%
+\def\cvphone{+49 123 45678}%
+
+\pdfmeta % set pdf title, author, ...
+
+\begin{document}%
+\header
+
+\begin{aside}%
+\section*{About}
+\textbf{Born} 01.01.1900\\
+\textbf{Citizenship} German
+
+\section*{Languages}
+\textbf{German} native\\
+\textbf{English} CEFR Z2
+
+\section*{GitHub}
+hobbeshunter
+
+\section*{Areas of Expertise}
+Web Development\\
+Game Development\\
+Database Engineering\\
+
+
+\section*{Programming Languages}
+Fortran, Lisp, Lua Script, Brainf*ck
+
+\section*{Frameworks}
+Unreal Engine, Unity, CryEngine
+
+\end{aside}% no newline here
+\begin{main}%
+    \section*{Education}
+    \begin{cvitemize}
+        \cvitem{Oct 1921 - \textbf{now}}{Computer Science}{TU Munich}{Master of Science}{specialized in super cool programming}
+        \cvitem{Oct 1918 - Sept 1921}{Computer Science}{TU Dresden}{Bachelor of Science}{Thesis: How to program something super cool}
+    \end{cvitemize}
+
+    \section*{Work Experience}
+    \begin{cvitemize}
+        \cvitem{Jun 1920 - \textbf{now}}{Awesome Company 1}{City 1}{Co-Founder, Software Engineer}{Game Development | Web Development}
+        \cvitem{Jan 1919 - Sep 1920}{Awesome Company 2}{City 2}{Junior Software Developer}{Web Development | Enterprise Software Support}
+    \end{cvitemize}
+
+    \section*{Extracurricular Experience}
+    \begin{cvitemize}
+        \cvitem{Jun 1915 - Aug 1916}{Some cool organisation}{City 1}{Helped little children to tie a bow}{}
+        \cvitem{Apr 1917 - Jul 1918}{Some other organisation}{City 2}{Organized the annual meeting of dachshound breeders}{}
+    \end{cvitemize}
+
+    \section*{Awards}
+    \begin{cvitemize}
+        \cvitem{2014}{Best Hamburger}{}{}{}
+        \cvitem{2018}{Winner Gotham City Sack Race}{}{}{}
+    \end{cvitemize}
+\end{main}
+
+\cityanddate
+
+\end{document}
